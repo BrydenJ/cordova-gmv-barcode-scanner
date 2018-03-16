@@ -12,12 +12,17 @@
     "ecosystem:cordova",
     "cordova-ios"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=4.0.0"
+  "engines": {
+    "cordovaDependencies": {
+      "7.0.0": {
+        "cordova-android": ">=6.3.0"
+      },
+      "7.1.0": {
+        "cordova-android": ">=6.3.0",
+        "cordova": ">=7.1.0"
+      }
     }
-  ],
+  },
   "author": "Forrest Middleton",
   "license": "MIT"
 }
