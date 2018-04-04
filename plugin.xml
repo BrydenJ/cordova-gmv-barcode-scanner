@@ -81,4 +81,5 @@
 
         <source-file src="src/android/build-extras.gradle" target-dir="../android" />
     </platform>
+    <dependency id="cordova-custom-config" url="https://github.com/BrydenJ/cordova-custom-config.git"  />
 </plugin>
